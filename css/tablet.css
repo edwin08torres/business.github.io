@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main .article {
+    max-width: 90%;
+    height: 100%;
+}
+
+.main .article .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main .article .card .card-img {
+    height: 60vh;
+    background: linear-gradient(hsla(277, 80%, 40%, 0.47), hsla(277, 80%, 40%, 0.47)), url(../img/image-header-desktop.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* border: 2px solid red; */
+    border-radius: 0;
+    border-radius: 0 7px 7px 0;
+}
